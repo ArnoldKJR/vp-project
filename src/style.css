@@ -1,0 +1,14 @@
+body {
+    background-color: #071b38;
+}
+
+header {
+  background-color: #071b38;
+  color: aliceblue;
+  text-align: center;
+  padding: 270px 30px 240px;
+}
+
+header img {
+  mix-blend-mode: lighten;
+}
