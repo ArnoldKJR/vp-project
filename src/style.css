@@ -1,5 +1,5 @@
 body {
-    background-color: #071b38;
+  background-color: #071b38;
 }
 
 header {
@@ -11,4 +11,21 @@ header {
 
 header img {
   mix-blend-mode: lighten;
+}
+
+main img {
+  background-color: #53729c;
+  border-radius: 10px;
+  mix-blend-mode: multiply;
+  width: 100%;
+}
+
+main h3 {
+  color: aliceblue;
+  font-size: medium;
+  text-align: center;
+}
+
+.about-grid .row {
+  height: 700px;
 }
