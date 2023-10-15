@@ -14,18 +14,72 @@ header img {
 }
 
 main img {
-  background-color: #53729c;
-  border-radius: 10px;
-  mix-blend-mode: multiply;
   width: 100%;
 }
 
 main h3 {
+  color: aliceblue;
+  font-size: 48px;
+  text-align: center;
+}
+
+main h4 {
   color: aliceblue;
   font-size: medium;
   text-align: center;
 }
 
 .about-grid .row {
-  height: 700px;
+  height: 450px;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  position: relative;
+  transition: transform 1000ms;
+  transform-style: preserve-3d;
+}
+
+.col-sm:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+#education {
+  margin-bottom: auto;
+}
+
+#passions {
+  margin: auto;
+}
+
+#hobbies {
+  margin-top: auto;
+}
+
+@media (max-width: 575px) {
+  .about-grid .col-sm-4 {
+    margin-top: 50px;
+  }
 }
