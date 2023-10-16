@@ -43,7 +43,7 @@ main h4 {
   transform-style: preserve-3d;
 }
 
-.col-sm:hover > .card {
+.col-sm-4:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
 }
