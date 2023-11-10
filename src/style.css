@@ -13,6 +13,10 @@ header img {
   mix-blend-mode: lighten;
 }
 
+header.secondary {
+  padding: 200px 30px 70px;
+}
+
 main img {
   width: 100%;
 }
@@ -27,6 +31,37 @@ main h4 {
   color: aliceblue;
   font-size: medium;
   text-align: center;
+}
+
+section {
+  padding: 0 20px;
+}
+
+form {
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+form .textbox {
+  border-radius: 6px;
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+form .submit-button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  background-color: #1c9ae5;
+  color: #fff;
+  transition: all 170ms ease-in-out;
+  border: none;
+}
+
+form .submit-button:hover {
+  background-color: #35aff5;
 }
 
 .about-grid .row {
@@ -79,6 +114,10 @@ main h4 {
 }
 
 @media (max-width: 575px) {
+  header.secondary {
+    padding: 150px 30px 70px;
+  }
+
   .about-grid .col-sm-4 {
     margin-top: 50px;
   }
