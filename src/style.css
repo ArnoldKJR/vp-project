@@ -25,16 +25,27 @@ main h3 {
   color: aliceblue;
   font-size: 48px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 main h4 {
   color: aliceblue;
   font-size: medium;
   text-align: center;
+  margin-top: 10px;
+}
+
+main h5 {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+main p {
+  color: #fff;
 }
 
 section {
-  padding: 0 20px;
+  padding: 40px 20px;
 }
 
 form {
@@ -64,8 +75,25 @@ form .submit-button:hover {
   background-color: #35aff5;
 }
 
+img {
+  border-radius: 15px;
+}
+
+.projects img {
+  box-shadow: #fff 0px 0px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+i {
+  color: #286bd0;
+  margin-left: 3px;
+}
+
 .about-grid .row {
-  height: 450px;
+  max-height: 750px;
+}
+
+.about-grid p {
+  color: #000;
 }
 
 .card {
@@ -106,19 +134,24 @@ form .submit-button:hover {
 }
 
 #passions {
-  margin: auto;
+  margin: 100px 0;
 }
 
 #hobbies {
   margin-top: auto;
 }
 
+/* extra small width */
 @media (max-width: 575px) {
   header.secondary {
     padding: 150px 30px 70px;
   }
 
-  .about-grid .col-sm-4 {
-    margin-top: 50px;
+  main h4 {
+    font-size: 25px;
+  }
+
+  #passions {
+    margin: 20px 0;
   }
 }

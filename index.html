@@ -14,6 +14,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/42999b73a4.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/src/style.css" />
     <title>Portfolio</title>
   </head>
@@ -51,88 +55,93 @@
     </header>
 
     <main>
-      <h3>About Me</h3>
-      <div class="container about-grid">
-        <div class="row">
-          <div class="col-sm-4" id="education">
-            <div class="card">
-              <div
-                class="front"
-                style="background-image: url('/images/njcu.png')"
-              ></div>
-              <div class="back">
-                <p>
-                  I am computer science major, attending attending my final year
-                  as a senior at NJCU.
-                </p>
+      <section>
+        <h3>About Me</h3>
+        <div class="about-grid">
+          <div class="row">
+            <div class="col-sm-4" id="education">
+              <div class="card">
+                <div
+                  class="front"
+                  style="background-image: url('/images/njcu.png')"
+                ></div>
+                <div class="back">
+                  <p>
+                    I am computer science major, attending attending my final
+                    year as a senior at NJCU.
+                  </p>
+                </div>
               </div>
+              <h4>Education</h4>
             </div>
-            <h4>Education</h4>
-          </div>
-          <div class="col-sm-4" id="passions">
-            <div class="card">
-              <div
-                class="front"
-                style="background-image: url('/images/cybersecurity-lock.png')"
-              ></div>
-              <div class="back">
-                <p>
-                  I have a passion for computers. I was always a gamer growing
-                  up and found a deeper love behind the games, the code that
-                  makes them!
-                </p>
+            <div class="col-sm-4" id="passions">
+              <div class="card">
+                <div
+                  class="front"
+                  style="
+                    background-image: url('/images/cybersecurity-lock.png');
+                  "
+                ></div>
+                <div class="back">
+                  <p>
+                    I have a passion for computers. I was always a gamer growing
+                    up and found a deeper love behind the games, the code that
+                    makes them!
+                  </p>
+                </div>
               </div>
+              <h4>Passions</h4>
             </div>
-            <h4>Passions</h4>
-          </div>
-          <div class="col-sm-4" id="hobbies">
-            <div class="card">
-              <div
-                class="front"
-                style="background-image: url('/images/gym.webp')"
-              ></div>
-              <div class="back">
-                <p>
-                  One of my biggest hobbies is working out. I love the art of
-                  body building and power lifting. I am planning on competing in
-                  the future when I have the time to dedicate myself.
-                </p>
+            <div class="col-sm-4" id="hobbies">
+              <div class="card">
+                <div
+                  class="front"
+                  style="background-image: url('/images/gym.webp')"
+                ></div>
+                <div class="back">
+                  <p>
+                    One of my biggest hobbies is working out. I love the art of
+                    body building and power lifting. I am planning on competing
+                    in the future when I have the time to dedicate myself.
+                  </p>
+                </div>
               </div>
+              <h4>Hobbies</h4>
             </div>
-            <h4>Hobbies</h4>
           </div>
         </div>
-      </div>
-      <h3 class="mt-5">These are my Projects</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4" id="Cookie Theft">
-            <div class="card">
-              <div
-                class="front"
-                style="background-image: url('/images/projects/mystery.jpeg')"
-              ></div>
-            </div>
-            <h4>Cookie Theft</h4>
+      </section>
+      <section class="projects">
+        <h3 class="mt-5">These are my Projects</h3>
+        <div class="row text-center text-sm-start">
+          <div class="col-sm">
+            <img src="images/projects/mystery.jpeg" alt="" />
+          </div>
+          <div class="col-sm mt-3 mt-sm-0">
+            <h5>
+              Cookie Theft Mystery
+              <a
+                href="https://github.com/arnoldkhublall/cookie-theft-mystery"
+                target="_blank"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </h5>
+            <p>
+              this is a decription this is more words i dont know what im am
+              saying lalalalalala i love my girlfriend
+            </p>
           </div>
         </div>
-      </div>
-      <h3>Coming Soon</h3>
-      <div class="container">
+      </section>
+      <section class="coming-soon">
+        <h3>Coming Soon</h3>
         <div class="row">
-          <div class="col-sm-4" id="Cookie Theft">
-            <div class="card">
-              <div
-                class="front"
-                style="
-                  background-image: url('/images/projects/coming_soon.jpeg');
-                "
-              ></div>
-            </div>
+          <div class="col-sm-4">
+            <img src="/images/projects/coming_soon.jpeg" alt="">
             <h4>Packet Sniffing</h4>
           </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <script src="/src/script.js"></script>
