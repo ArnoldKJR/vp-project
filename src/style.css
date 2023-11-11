@@ -126,6 +126,7 @@ i {
 }
 
 .back {
+  padding: 10px;
   transform: rotateY(180deg);
 }
 
@@ -141,6 +142,13 @@ i {
   margin-top: auto;
 }
 
+/* small width */
+@media (max-width: 767px) {
+ .back p{
+  font-size: 13px;
+ }
+}
+
 /* extra small width */
 @media (max-width: 575px) {
   header.secondary {
@@ -149,6 +157,10 @@ i {
 
   main h4 {
     font-size: 25px;
+  }
+
+  .back p {
+    font-size: 16px;
   }
 
   #passions {
