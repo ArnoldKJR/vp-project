@@ -44,8 +44,12 @@ main p {
   color: #fff;
 }
 
+main strong {
+  color: #fff;
+}
+
 section {
-  padding: 80px 20px;
+  padding: 80px 80px;
 }
 
 form {
@@ -142,11 +146,22 @@ i {
   margin-top: auto;
 }
 
+/* medium width */
+@media (max-width: 991px) {
+  section {
+    padding: 80px 40px;
+  }
+}
+
 /* small width */
 @media (max-width: 767px) {
- .back p{
-  font-size: 13px;
- }
+  section {
+    padding: 80px 20px;
+  }
+
+  .back p {
+    font-size: 13px;
+  }
 }
 
 /* extra small width */

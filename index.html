@@ -24,7 +24,9 @@
   <body>
     <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">Arnold Khublall Jr.</a>
+        <a class="navbar-brand" href="/">
+          <img src="images/Signature.png" alt="" width="50"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -44,7 +46,7 @@
             <a class="nav-link" href="/images/Arnold_Khublall_Resume.docx"
               >Resume</a
             >
-            <a class="nav-link" href="/contact.html">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </div>
         </div>
       </div>
@@ -129,8 +131,14 @@
               ></a>
             </h5>
             <p>
-              this is a decription this is more words i dont know what im am
-              saying lalalalalala i love my girlfriend
+              Using SQLite3, you are a worker at a darcare center and one of the
+              babies stole a cookie from the cookie jar. Find the culprit that
+              stole the cookie.
+            </p>
+            <p>
+              <strong> Hint: </strong>
+              Crime was cookie theft, reported by daycare aide Janine, and was
+              commited on 3/17/23.
             </p>
           </div>
         </div>
@@ -142,7 +150,85 @@
             <img src="/images/projects/coming_soon.jpeg" alt="" />
             <h4>Packet Sniffing</h4>
           </div>
+          <div class="col-sm-4">
+            <img src="/images/projects/coming_soon.jpeg" alt="" />
+            <h4>Caesar Cipher</h4>
+          </div>
+          <div class="col-sm-4">
+            <img src="/images/projects/coming_soon.jpeg" alt="" />
+            <h4>Keylogger</h4>
+          </div>
         </div>
+      </section>
+      <section id="contact">
+        <h3>Get In Touch With Me</h3>
+        <form
+          action="https://formsubmit.co/arnoldkhublalljr@gmail.com"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="textbox"
+                name="first-name"
+                id="first-name"
+                placeholder="First name"
+                required
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="textbox"
+                name="least-name"
+                id="last-name"
+                placeholder="Last name"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <input
+              type="email"
+              class="textbox"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="tel"
+              class="textbox"
+              name="phone-number"
+              id="phone-number"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              class="textbox"
+              name="subject"
+              id="subject"
+              placeholder="Subject"
+            />
+          </div>
+          <div>
+            <textarea
+              name="message"
+              class="textbox"
+              id="message"
+              placeholder="Message"
+              cols="60"
+              rows="6"
+              required
+            ></textarea>
+          </div>
+          <input type="submit" class="submit-button" />
+        </form>
       </section>
     </main>
 
