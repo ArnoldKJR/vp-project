@@ -52,6 +52,12 @@ section {
   padding: 80px 80px;
 }
 
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #A2D5EA;
+  color: #A2D5EA;
+}
+
 form {
   max-width: 530px;
   margin: 0 auto;
