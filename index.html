@@ -9,6 +9,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -22,14 +28,14 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top">
+    <nav class="navbar navbar-expand-md fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">
-          <img src="images/Signature.png" alt="" width="50"
-        /></a>
-        <audio controls loop>
-          <source src="/music/enchanted-taytay.mp3" type="audio/mpeg" />
+        <a class="navbar-brand" href="/"> AK</a>
+        <audio controls autoplay>
+          <source src="music/enchanted-taytay.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
         </audio>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -43,13 +49,14 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link" aria-current="page" href="/">Home</a>
             <a class="nav-link" href="/#about">About</a>
             <a class="nav-link" href="/#projects">Projects</a>
             <a class="nav-link" href="/images/Arnold_Khublall_Resume.docx"
               >Resume</a
             >
             <a class="nav-link" href="#contact">Contact</a>
+            <button id="theme-button"><i class="fa-solid fa-sun"></i></button>
           </div>
         </div>
       </div>
@@ -57,8 +64,11 @@
 
     <header>
       <img src="/images/ninja.svg" alt="Ninja" class="mb-4" />
-      <h1 class="mb-3">Hi, I am Arnold Khublall Jr.</h1>
-      <h2>A Cybersecurity Expert</h2>
+      <h1 class="mb-3">
+        Hi, I am
+        <p>Arnold Khublall Jr.</p>
+      </h1>
+      <h2 class="special-text">A Software Engineer</h2>
     </header>
 
     <main>
@@ -134,7 +144,7 @@
               ></a>
             </h5>
             <p>
-              Using SQLite3, you are a worker at a darcare center and one of the
+              Using SQLite3, you are a worker at a daycare center and one of the
               babies stole a cookie from the cookie jar. Find the culprit that
               stole the cookie.
             </p>
@@ -234,6 +244,35 @@
         </form>
       </section>
     </main>
+
+    <footer class="row g-0 gx-sm-5">
+      <div class="col-lg-6 footer-message">
+        <h3>Get In Touch</h3>
+        <p>
+          Contact me through these links I am always looking for new
+          opportunities so if you like what you see message me!!!!
+        </p>
+        <a href="https://github.com/arnoldkhublall" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/arnoldkhublalljr/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="mailto:arnoldkhublalljr@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+      <div class="col-lg-6 contact-box-link">
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <p>arnoldkhublalljr@gmail.com</p>
+        </div>
+        <div class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <p>arnoldkhublalljr@gmail.com</p>
+        </div>
+      </div>
+    </footer>
 
     <script src="/src/script.js"></script>
   </body>
